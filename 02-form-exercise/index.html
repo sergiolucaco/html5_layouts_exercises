@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form exercise</title>
+</head>
+<body>
+	<header>
+		<h1>A Simple Form</h1>
+		<h2><em>Form Fundamentals</em></h2>
+	</header>
+	<main>
+		<form action="#">
+			<fieldset>
+				<legend>Customer info</legend>
+				<div>
+					<label for="name">Name : 
+						<input type="text" id="name" size ="30" autofocus required placeholder="Insert your name here">
+					</label>
+				</div>
+				<div>
+					<label for="phone">Telephone :
+						<input type="tel" id="phone" size ="30" required placeholder="Pattern 1-234-567-8910" pattern="\d[\-]\d{3}[\-]\d{3}[\-]\d{3}">
+					</label>
+				</div>
+				<div>
+					<label for="email">Email Address :
+						<input type="email" id="email" size ="30" row="5" col ="3" required placeholder="Insert your email address here">
+					</label>
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Books</legend>
+				<input type="text">
+				<input type="text">
+			</fieldset>
+			<input type="submit" value="Submit">
+		</form>
+	</main>
+	<footer>
+		&copy <small>Acme United.All rights reserverd.</small>
+	</footer>
+
+</body>
+</html>
